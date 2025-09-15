@@ -1,0 +1,13 @@
+{
+  "name": "daily-stock-monitor",
+  "version": "1.0.0",
+  "description": "Daily stock monitoring with email alerts",
+  "main": "stock-monitor.js",
+  "scripts": {
+    "start": "node stock-monitor.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "@sendgrid/mail": "^7.7.0"
+  }
+}
